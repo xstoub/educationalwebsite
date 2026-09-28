@@ -1,0 +1,70 @@
+header {
+    background-color: mistyrose;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+body {
+    background-color: grey;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+img {
+    width: 35%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+/* add colors to each item in the lists */
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.gold {
+    color: gold;
+}
+
+.silver {
+    color: silver;
+}
+
+.crystal {
+    color: white;
+}
+
+#big {
+    font-size: 40px;
+}
+
+#small {
+    font-size: 15px;
+}
+/* add a felx container to the lists */
+.flex-container {
+  display: flex;
+}
+
+.box {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 10px;
+}
