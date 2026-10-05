@@ -51,6 +51,10 @@ img {
     color: #555555;
 }
 
+.black {
+    color: black;
+}
+
 #big {
     font-size: 40px;
 }
