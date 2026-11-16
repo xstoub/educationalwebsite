@@ -4,64 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The History of Pokemon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
-</head>
 <body>
-    <header>
-    <h1>The History of Pokemon</h1>
-    </header>
+    <div class="container mt-4">
+        <header class="text-center mb-4">
+        <h1>The History of Pokemon</h1>
+        </header>
 
-    <main>
+        <main>
 
-    <h2>Generation 1: Red and Blue</h2>
+        <h2>Generation 1: Red and Blue</h2>
 
-    <p id="big">The first two games in the series are Red and Blue.
-        It follows Red as he travels the Kanto region catching and battling Pokemon.
-        Along the way he runs into legendary Pokemon like Mewtwo, and he has to put a stop to Team Rocket.
-    </p>
+        <p id="big">The first two games in the series are Red and Blue.
+            It follows Red as he travels the Kanto region catching and battling Pokemon.
+            Along the way he runs into legendary Pokemon like Mewtwo, and he has to put a stop to Team Rocket.
+        </p>
 
-    <div class="flex-container">
+        <div class="row">
 
-        <div class="box">
+            <section class="col-md-6 mb-4">
 
-            <h3>The characters</h3>
+                <h3>The characters</h3>
 
-            <!--Show an unordered list of the characters-->
+                <!--Show an unordered list of the characters-->
 
-            <ul>
-                <li>Red</li>
-                <li>Blue</li>
-                <li>Professor Oak</li>
-                <li>Giovanni</li>
-            </ul>
+                <ul>
+                    <li>Red</li>
+                    <li>Blue</li>
+                    <li>Professor Oak</li>
+                    <li>Giovanni</li>
+                </ul>
+            </section>
+
+            <section class="col-md-6 mb-4">
+
+                <h3>Games in this Generation</h3>
+
+                <!--Show an ordered list of the games-->
+                <ol>
+                    <li class="red">Pokemon Red</li>
+                    <li class="blue">Pokemon Blue</li>
+                    <li class="green">Pokemon Green (Only in Japan)</li>
+                    <li class="yellow">Pokemon Yellow</li>
+                </ol>
+            </section>
         </div>
 
-        <div class="box">
+        <!--Show a Picture of Pokemon Red and Blue-->
 
-            <h3>Games in this Generation</h3>
+        <img alt="Pokemon Red and Blue box image" src="/images/pokemon_red_blue_main_169.jpg"/>
+        </main>
 
-            <!--Show an ordered list of the games-->
-            <ol>
-                <li class="red">Pokemon Red</li>
-                <li class="blue">Pokemon Blue</li>
-                <li class="green">Pokemon Green (Only in Japan)</li>
-                <li class="yellow">Pokemon Yellow</li>
-            </ol>
-        </div>
+        <footer class="mt-5">
+            <nav class="d-flex justify-content-center gap-4">
+
+                <!--Have an anchor tag that links to page 2-->
+
+                <a href="page2.html" class="btn btn-primary">Learn more about Pokemon</a>
+            </nav>
+        </footer>
+
     </div>
-
-    <!--Show a Picture of Pokemon Red and Blue-->
-
-    <img alt="Pokemon Red and Blue box image" src="/images/pokemon_red_blue_main_169.jpg"/>
-    </main>
-
-    <footer>
-
-    <!--Have an anchor tag that links to page 2-->
-
-    <a href="page2.html" class="black">Learn more about Pokemon</a>
-    </footer>
-
-    
 </body>
 </html>

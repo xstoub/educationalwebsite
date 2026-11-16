@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The History of Pokemon page 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
@@ -18,8 +19,8 @@
     <p id="small" class="gold">This game follows Ethan as he explores both Johto and Kanto.
         He runs into Team Rocket on his adventure and meets legendary Pokemon like Ho-oh and Lugia.</p>
 
-    <div class="flex-container">
-        <div class="box">
+    <div class="row">
+        <section class="col-md-6 mb-4">
 
             <h3>The characters</h3>
 
@@ -31,9 +32,9 @@
                 <li>Professor Oak</li>
                 <li>Giovanni</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="box">
+        <section class="col-md-6 mb-4">
 
             <h3>Games in this Generation</h3>
 
@@ -43,16 +44,18 @@
                 <li class="silver">Pokemon Silver</li>
                 <li class="crystal">Pokemon Crystal</li>
             </ol>
-        </div>
+        </section>
     </div>
 
     </main>
 
-    <footer>
+    <footer class="mt-5">
+        <nav class="d-flex justify-content-center gap-4">
 
-    <!--Have an anchor tag that links to page 1-->
+            <!--Have an anchor tag that links to page 1-->
 
-    <a href="index.html">Back to Home</a>
+            <a href="index.html" class="btn btn-primary">Back to Home</a>
+        </nav>
     </footer>
 
 
