@@ -62,16 +62,21 @@ img {
 #small {
     font-size: 15px;
 }
-/* add a felx container to the lists */
+
+/*
+ add a felx container to the lists 
 .flex-container {
   display: flex;
 }
+*/
 
+/*
 .box {
   background-color: lightgray;
   padding: 20px;
   margin: 10px;
 }
+*/
 
 @media (max-width: 600px) {
   body {
