@@ -39,9 +39,11 @@ img {
     color: #555500;
 }
 
+/*
 .gold {
     color: #884400;
 }
+*/
 
 .silver {
     color: #505050;
@@ -55,13 +57,17 @@ img {
     color: black;
 }
 
+/*
 #big {
     font-size: 40px;
 }
+*/
 
+/*
 #small {
     font-size: 15px;
 }
+*/
 
 /*
  add a felx container to the lists 
